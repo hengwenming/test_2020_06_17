@@ -1,6 +1,8 @@
 #include<iostream>   //头文件
 using namespace std; //名称空间
 
+void test02();    //声明函数
+
 void test01()       //方法 输出hello world
 {
  cout<<"hello world"<<endl;
@@ -9,4 +11,8 @@ void test01()       //方法 输出hello world
 int main()  //主函数（函数入口）
 {
 test01();    //调用函数
+} 
+void test02()
+{
+ cout<<"修改Github文件"<<endl;
 }
