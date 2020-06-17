@@ -1,0 +1,12 @@
+#include<iostream>   //头文件
+using namespace std; //名称空间
+
+void test01()       //方法 输出hello world
+{
+ cout<<"hello world"<<endl;
+}
+
+int main()  //主函数（函数入口）
+{
+test01();    //调用函数
+}
